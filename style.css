@@ -1,43 +1,61 @@
 body {
-    font-family: Cursive, Cursive;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif; /* Fonte do corpo do texto */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    line-height: 1.6; /* Melhora a legibilidade */
+    background-color: #f0f8ff; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
 }
 
 header {
-    background: #4CAF50;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradiente de fundo */
+    color: white; /* Cor do texto do cabeçalho */
+    padding: 40px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra do cabeçalho */
+}
+
+h1 {
+    font-size: 2.5em; /* Tamanho do título principal */
+    margin: 0; /* Remove margens */
+}
+
+h2 {
+    color: #6a11cb; /* Cor do subtítulo */
+    margin-top: 20px; /* Espaçamento acima do subtítulo */
 }
 
 main {
-    padding: 20px;
-    text-align: center;
+    max-width: 800px; /* Largura máxima do conteúdo */
+    margin: 20px auto; /* Centraliza o conteúdo */
+    padding: 20px; /* Espaçamento interno */
+    background: white; /* Cor de fundo do conteúdo */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra do conteúdo */
 }
 
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-top: 20px;
-    background: #4CAF50;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
+a.button {
+    display: inline-block; /* Faz o link se comportar como um botão */
+    padding: 15px 30px; /* Espaçamento interno do botão */
+    background-color: #ff6f61; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    text-decoration: none; /* Remove o sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave */
+    font-size: 1.2em; /* Tamanho da fonte do botão */
 }
 
-.button:hover {
-    background: #45a049;
+a.button:hover {
+    background-color: #ff4c3b; /* Cor do botão ao passar o mouse */
+    transform: translateY(-2px); /* Efeito de elevação ao passar o mouse */
 }
 
 footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #333;
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+    text-align: center; /* Centraliza o texto do rodapé */
+    padding: 20px; /* Espaçamento interno do rodapé */
+    background-color: #6a11cb; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto do rodapé */
+    position: relative; /* Para posicionamento */
+    bottom: 0; /* Fixa o rodapé na parte inferior */
+    width: 100%; /* Largura total */
+    box-shadow: 
